@@ -1,0 +1,56 @@
+Iniciando o projeto
+- npx create-next-app@latest --use-npm
+
+Organizar projeto
+- Apagar: README.md / styles
+- Criar pastas src / mover pages para src
+- Apagar conteudo do index
+
+Design System
+- npm i @ignite-ui/react@latest
+
+- Criar arquivo _document
+
+Eslint
+- npm i @rocketseat/eslint-config -D
+
+Icones
+- npm i phosphor-react
+
+Criação de formulário
+Reack hook forms
+- npm i react-hook-form @hookform/resolvers zod
+
+Prisma 
+Comunicação com banco de dados
+- npm i prisma -D
+- npm i @prisma/client
+- npx prisma init --datasource-provider SQLite
+
+Executar alterações mapeamento
+- npx prisma migrate dev
+
+Visualizar banco de dados
+- npx prisma studio
+
+
+Axios: Trabalhar com requisições (front/back)
+npm i axios
+
+Gerenciador de cookie no next
+- npm i nookies
+- npm i @types/cookie -D
+
+
+------
+
+Protocolo de autenticação oauth
+
+NextAuth.js
+
+- Criar um app dentro da google cloud
+https://console.cloud.google.com/home/dashboard?project=ignite-call-375420
+
+
+Instalação NextAuth
+- npm i next-auth
