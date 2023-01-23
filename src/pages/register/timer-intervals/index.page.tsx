@@ -19,6 +19,7 @@ export default function TimeIntervals() {
                 <IntervalContainer>
                     <IntervalItem>
                         <IntervalDay>
+                            <Checkbox />
                             <Text>Segunda-feira</Text>
                         </IntervalDay>
                         <IntervalInputs>
